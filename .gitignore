@@ -1,0 +1,9 @@
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+.idea/
+TryingSparkStreaming.iml
+target/
