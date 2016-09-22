@@ -79,29 +79,7 @@ public class Draft {
                 "    }\n" +
                 "\n" +
                 "}";
-        TweetPayload a = getPayloadFromMessage(str);
-        String s = "CREATE TABLE tweets_payload (" +
-                "text varchar," +
-                "id varchar," +
-                "truncated boolean," +
-                "timestamp_ms varchar," +
-                "coordinates varchar," +
-                "retweet_count int," +
-                "created_at varchar," +
-                "user_location varchar," +
-                "username varchar," +
-                "user_screen_name varchar," +
-                "user_followers_count int," +
-                "PRIMARY KEY (created_at, timestamp_ms)" +
-                ");";
 
-        String z = "CREATE TABLE tweets_hashtags (" +
-                "text varchar," +
-                "ts varchar," +
-                "hashtag varchar," +
-                "PRIMARY KEY (hashtag, ts)" +
-                ");";
-        System.out.println(z);
         System.out.println();
     }
 
